@@ -1,0 +1,66 @@
+body
+{
+	margin: 0;
+	background-color: #26282E;
+	color: #209781;
+	font-size: 28px;
+	text-align: center;
+}
+
+
+.board
+{
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px dotted #13233A;
+	padding: 25px;
+}
+
+h1
+{
+	letter-spacing: 3px;
+}
+
+.card
+{
+	background-color: #AAAACA;
+	width: 175px;
+	height: 175px;
+	display: inline-block;
+	margin: 3px;
+	background-image: url("img/cards.png");
+	border: 3px solid #4b0363;
+	filter: brightness(90%);
+}
+
+.cardA
+{
+	background-color: #AAAACA;
+	width: 175px;
+	height: 175px;
+	display: inline-block;
+	margin: 3px;
+	background-image: url("img/cards.png");
+	border: 3px solid #4b0363;
+	filter: brightness(100%);
+}
+
+.card:hover
+{
+	cursor: pointer;
+	filter: brightness(100%);
+}
+
+.score
+{
+	padding-top: 25px;
+	letter-spacing: 2px;
+}
+
+.reset:hover
+{
+	color: #13233A;
+	cursor: pointer
+}
+
